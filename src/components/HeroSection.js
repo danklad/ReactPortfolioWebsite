@@ -1,10 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import HeroImg from "../assets/images/hero.png";
+import HeroImg from "../assets/images/hero3.jpg";
 import Button from "./Button";
 import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 import PText from "./PText";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaLinkedin,
+  FaStackOverflow,
+  FaGithub,
+} from "react-icons/fa";
 
 const HeroStyles = styled.div`
   .hero {
@@ -161,9 +168,13 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              <p>
+                <b style={{ color: "black" }}>
+                  I am a Full Stack developer with hands on experience in MERN
+                  Stack. I love to code and make new web experiences for the
+                  people.
+                </b>
+              </p>
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -176,11 +187,11 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.facebook.com/profile.php?id=100003259615410"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    <FaFacebook />
                   </a>
                 </li>
                 <li>
@@ -189,25 +200,34 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
+                    <FaStackOverflow />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.instagram.com/coke_n_bacardi  "
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IG
+                    <FaInstagram />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://github.com/danklad"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    <FaGithub />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stackoverflow.com/users/16925151/danklad"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaLinkedin />
                   </a>
                 </li>
               </ul>

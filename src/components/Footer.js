@@ -57,11 +57,11 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Surya Nune</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            I am a full stack web and app developer from Bangalore, India. I
+            create professional websites and apps. I love programming and always
+            try to show unique views to the audience through my skills.
           </PText>
         </div>
         <div className="footer__col2">
@@ -133,9 +133,9 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{" "}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
+            © 2022 - Surya Nune | Developed By{" "}
+            <a target="_blank" rel="noreferrer" href="/Home">
+              Surya
             </a>{" "}
           </PText>
         </div>

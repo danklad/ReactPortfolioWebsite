@@ -81,9 +81,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Bangalore,
-            India. I create professional websites. I love programming and always
-            try to show unique views to the audience through my skills. swag
+            I am a full stack web and app developer from Bangalore,
+            India. I create professional websites and apps. I love programming and always
+            try to show unique views to the audience through my skills.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
