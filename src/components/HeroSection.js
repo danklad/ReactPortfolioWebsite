@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeroImg from "../assets/images/hero3.jpg";
+import HeroImg from "../assets/images/hero_new.jpg";
 import Button from "./Button";
 import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
@@ -196,7 +196,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="https://stackoverflow.com/users/16925151/danklad"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -223,7 +223,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://stackoverflow.com/users/16925151/danklad"
+                    href="https://www.linkedin.com/in/sai-surya-teja-nune-0680901a0/"
                     target="_blank"
                     rel="noreferrer"
                   >
