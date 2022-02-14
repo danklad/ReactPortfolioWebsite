@@ -169,7 +169,12 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               <p>
-                <b style={{ color: "white", backgroundColor: "black" }}>
+                <b
+                  style={{
+                    color: "white",
+                    backgroundColor: "RGB(0, 0, 0, 0.4)",
+                  }}
+                >
                   I am a Full Stack developer with hands on experience in MERN
                   Stack. I love to code and make new web experiences for the
                   people.
