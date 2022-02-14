@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: "+88012312",
-                path: "tel:+88012312",
+                title: "+919652165616",
+                path: "tel:+919652165616",
               },
               {
-                title: "webcifar@gmail.com",
-                path: "mailto:webcifar@gmail.com",
+                title: "nunesaisuryateja@gmail.com",
+                path: "mailto:nunesaisuryateja@gmail.com",
               },
               {
-                title: "GEC Circle, Chittagong, Bangladesh",
+                title: "Bangalore, India",
                 path: "http://google.com/maps",
               },
             ]}
@@ -116,15 +116,16 @@ export default function Footer() {
             links={[
               {
                 title: "Facebook",
-                path: "http://facebook.com",
+                path: "https://www.facebook.com/profile.php?id=100003259615410",
               },
               {
-                title: "Twitter",
-                path: "http://twitter.com",
+                title: "Linkedin",
+                path:
+                  "https://www.linkedin.com/in/sai-surya-teja-nune-0680901a0/",
               },
               {
                 title: "Instagram",
-                path: "http://instagram.com",
+                path: "https://www.instagram.com/coke_n_bacardi",
               },
             ]}
           />

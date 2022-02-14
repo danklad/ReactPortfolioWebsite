@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeroImg from "../assets/images/hero_new.jpg";
+import HeroImg from "../assets/images/hero3.jpg";
 import Button from "./Button";
 import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
 import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
@@ -169,7 +169,7 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               <p>
-                <b style={{ color: "black" }}>
+                <b style={{ color: "white", backgroundColor: "black" }}>
                   I am a Full Stack developer with hands on experience in MERN
                   Stack. I love to code and make new web experiences for the
                   people.
@@ -205,7 +205,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/coke_n_bacardi  "
+                    href="https://www.instagram.com/coke_n_bacardi"
                     target="_blank"
                     rel="noreferrer"
                   >
