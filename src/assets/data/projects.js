@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import ProjectImg from "../images/projectImg.png";
+import ProjectImg from "../images/blind.jpg";
 import UTrackerImg from "../images/utracker.jpg";
 import GreenCtgImg from "../images/greenctg.jpg";
 import CoinTrackerImg from "../images/cointracker.jpg";
@@ -8,37 +8,38 @@ import CavinImg from "../images/cavinimg.jpg";
 const projects = [
   {
     id: uuidv4(),
-    name: "U Tracker",
+    name: "Auto Renewal In Mobile Games",
     desc:
-      "An application to track your all data from one place. I developed the website and the mobile app",
+      "This was an internship at TEESYNC TECHNOLOGY LIMITED, Hyderabad where my primary role was to develop an auto payment renewal feature for mobile games in Java.",
+
     img: UTrackerImg,
   },
   {
     id: uuidv4(),
-    name: "Green CTG",
+    name: "Speed Emotion Recognition Using CNN",
     desc:
-      "An app to help people to get an overview of how they can make the city beautiful.",
+      "The aim in this was to design a Machine Learning model that predicts the emotion of a person using voice sample.",
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
-    name: "Coin Tracker",
+    name: "CrytoCoin Tracker",
     desc:
-      "Using this app you can track any e coin. Also you will get a good advise about investment form the professional",
+      "Using this app you can track any e-coin. This app's components were sold to an upcoming new crypto currency exchange company and it's Beta version is available on Play Store for testing.",
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: "Freelance Projects",
     desc:
-      "A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.",
+      "I Developed websites for various companies (Diffuse Media, Mr Boss Solutions, 3Stripe Security, SKEI Etc..). Domains of these companies can be shared with you on request.",
     img: CavinImg,
   },
   {
     id: uuidv4(),
-    name: "Tracking Soft",
+    name: "Smart Walking Stick for the Blind(IOT)",
     desc:
-      "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
+      "A walking stick which will alert the blind person by vibrating the stick. and by beeping if there is any obstacle in the path. Technologies Used: ARDUINO UNO R3, SENSORS.",
     img: ProjectImg,
   },
 ];

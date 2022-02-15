@@ -144,7 +144,7 @@ export default function About() {
                 items={["Sasi Junior College, Tanuku"]}
               />
               <AboutInfoItem
-                title="Varsity"
+                title="University"
                 items={["Alliance Univeristy, Bangalore"]}
               />
             </div>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import styled from "styled-components";
 // import MapImg from "../assets/images/map.png";
@@ -22,7 +23,7 @@ const MapStyles = styled.div`
     right: 10%;
     bottom: 10%;
     margin-bottom: 2%;
-    left: 94.5%;
+    right: 0%;
     padding: 2rem;
     background: var(--deep-dark);
     width: 100%;
