@@ -135,9 +135,7 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2022 - Surya Nune | Developed By{" "}
-            <a target="_blank" rel="noreferrer" href="www.suryanune.com">
-              Surya
-            </a>{" "}
+            <a href="https://suryanune.com/">Surya</a>{" "}
           </PText>
         </div>
       </div>
