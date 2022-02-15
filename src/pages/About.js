@@ -157,7 +157,7 @@ export default function About() {
                   "HTML",
                   "CSS",
                   "JavaScript",
-                  "REACT",
+                  "React JS",
                   "React Native",
                   "XML",
                 ]}
@@ -172,7 +172,7 @@ export default function About() {
                   "C",
                   "Android",
                   "Java",
-                  "REST API's",
+                  "REST",
                   "JWT",
                   "AWS",
                   "Linux",
