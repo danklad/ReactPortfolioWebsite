@@ -181,7 +181,7 @@ export default function HeroSection() {
                 </b>
               </p>
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="see my work" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
